@@ -5,6 +5,7 @@
  * {
     box-sizing: border-box;
     text-align: center;
+    
   }
   
   body {
@@ -15,50 +16,59 @@
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
-
-
   }
   /*padding creates space */
   header {
     padding: 30px; 
     margin-bottom: 20px;
-    color: #333;
     background: #ccc;
   }
 
   nav{
     padding: 30px; 
     margin-bottom: 20px;
-    color: #333;
     background: #ccc;
   }
 
-  aside{
-    padding: 100px; 
-    margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
-
+  section, aside{
+    height: 250px;
   }
+
 
   section{
-    padding: 20px; 
+    padding: 10px;
+    padding-top: 30px;
     margin-bottom: 20px;
-    color: #333;
     background: #ccc;
     width: 495px;
+  
+  }
+  aside{
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #ccc;
+    float: right;
+    width: 440px;
+    
   }
 
+
   article{
+    clear: left;
       color: #ebebeb;
       background: #777;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-top: 20px;
+
+      
   }
 
 
   footer{
+    clear: right;
     padding: 30px; 
     margin-bottom: 20px;
-    color: #333;
     background: #ccc;
   }
 
@@ -68,7 +78,9 @@
   h1, p{
       color: #777;
       background: #ebebeb;
-      padding: 10px;
+      padding: 15px;
+      margin: 5px 20px;
+      margin-bottom: 10px;
 
   }
   
